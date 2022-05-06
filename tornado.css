@@ -1,0 +1,55 @@
+video{
+    position: fixed;
+  top: 50%;
+  left: 30%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(some.jpg) no-repeat;
+  background-size: cover;
+  }
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  
+  h1 {
+
+    position: relative;
+    top: 18px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    font: bold;
+    font-style: oblique;
+    stroke: white;
+    text-shadow: red;
+   
+    
+}  
+h2{
+    color: white;
+    text-align:center;
+    font: bold;
+    stroke: black;
+    
+    font-style: inherit;
+}
+table, th, td {
+    border:2px solid white;
+    color: white;
+  
+    font-size: x-large;
+    font: Open Sans;
+    table-layout: fixed;
+  }
+ 
+  
+ 
